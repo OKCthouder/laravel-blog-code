@@ -22,7 +22,7 @@
     
 	php artisan key:generate
     
-    //修改。env文件
+    //修改.env文件
 	APP_NAME=Laravel学院
 	APP_ENV=production
 	APP_DEBUG=false
@@ -31,8 +31,8 @@
 4. 创建本地数据库
 5. 运行迁移文件生成数据表以及自动填充数据
 ```
-	 php artisan migrate
-     php artisan db:seed
+	php artisan migrate
+    php artisan db:seed
 ```
 6. 下载依赖包
 ```
@@ -46,3 +46,4 @@
 ```
 	php artisan serve
 ```
+9. 打开浏览器，输入http://blog.laravelacademy.org进行访问
