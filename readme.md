@@ -7,6 +7,7 @@
 * npm
 
 #### 运行系统
+
 1. 克隆项目
 ```
 	git clone https://github.com/OKCthouder/laravel-blog-code.git
@@ -17,7 +18,11 @@
 ```
 3. 修改.env文件
 ```
+	cp .env.example .env
+    
 	php artisan key:generate
+    
+    //修改。env文件
 	APP_NAME=Laravel学院
 	APP_ENV=production
 	APP_DEBUG=false
@@ -29,9 +34,9 @@
 	 php artisan migrate
      php artisan db:seed
 ```
-6. 更新依赖包
+6. 下载依赖包
 ```
-	composer update
+	composer install
 ```
 7. 安装npm依赖包
 ```
